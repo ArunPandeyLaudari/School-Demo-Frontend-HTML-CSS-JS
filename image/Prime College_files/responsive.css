@@ -1,0 +1,872 @@
+    @media (max-width: 1399.98px) {
+    .section-title{
+        font-size: 40px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+
+    .inner-page-header{
+        padding: 35px 30px;
+        transform: translateY(-95px);
+    }
+
+    .inner-page-header h1{
+        font-size: 46px;
+    }
+    
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap{
+        top:0;
+    }
+
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap h1{
+        font-size: 100px;
+    }
+
+    .exp-card{
+        padding: 5px;
+    }
+    
+    .news-event-area {
+    margin-left: 6.6%;
+}
+
+    .intro-text{
+        font-size: 22px;
+    }
+
+    .infra__desc h1 span {
+        font-size: 32px;
+    }
+    
+    .testimonial-section .testimonial-slider-item .student-info .content{
+            padding-bottom:100px;
+        }
+        
+        .time-slot label{
+            padding:8px 20px;
+        }
+}
+
+@media (max-width: 1199.98px) {
+
+    .title{
+        font-size: 36px;
+    }
+
+    .navbar-brand img{
+        width: 130px;
+    }
+
+    .navbar ul.navbar-nav li{
+        margin: 0  10px;
+    }
+
+    .navbar ul li a{
+        font-size: 14px;
+    }
+
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap h1{
+        font-size: 90px;
+    }
+
+    .exp-card{
+        height:250px;
+    } 
+
+    .exp-detail{
+        padding:20px;
+    }
+
+    .chart-wrap{
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    .vision-img{
+        margin-right: 40px;
+    }
+
+    .infra__desc h1{
+        font-size: 40px;
+    }
+
+  
+
+        .club-item .club-item-img img{
+            aspect-ratio: 3/3.6;
+        }
+
+        .club-activities ul li{
+            margin-bottom: 5px;
+        }
+        
+         .testimonial-section .testimonial-slider-item .student-info .content{
+            padding-top:70px;
+            padding-bottom:70px;
+        }
+        .privilege-partner-wrap .privilege-partner-body{
+            padding:30px 20px;
+        }
+        
+        .infrastructure-item .infra-title h2{
+            font-size:26px;
+        }
+        
+        .booking_form .form-group .controls select, .booking_form select, .booking_form textarea, .booking_form input[type="text"]{
+            width:240px !important;
+        }
+        
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .testimonial-slider {
+    padding-bottom: 100px;
+}
+}
+
+@media (max-width: 991.98px) {
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .inner-page-header h1 {
+        font-size: 38px;
+    }
+
+    header nav .navbar-toggler{
+        color: var(--primary-color);
+        margin-top: 4px;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    header .navbar-collapse{
+        position: absolute;
+        top: 74px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: var(--white-color);
+        z-index: 9;
+        transition: ease all 0.3s;
+    }
+
+    header .collapse:not(.show){
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 0;
+    }
+
+    .navbar ul li a{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+
+.navbar ul.navbar-nav li{
+        margin: 10px  5px;
+    }
+    
+    .mega-menu-wrap{
+        width:700px;
+    }
+    
+    .mega-menu-inner{
+        padding:30px 15px;
+    }
+    
+    .mega-menu-wrap .mega-menu-item h4{
+        font-size:15px;
+    }
+   
+
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap h1{
+        font-size: 70px;
+    }
+
+    .exp-card,
+    .exp-card:first-child,
+    .exp-card:nth-child(2),
+    .exp-card:nth-child(6),
+    .exp-card:nth-child(7),
+    .exp-card:nth-child(8){
+        width: 33.3%;
+    }
+
+    
+    .exp-card:nth-child(4),
+    .exp-card:nth-child(5){
+        width: 50%;
+    }
+
+    .exp-card:first-child .exp-detail h3 a, .exp-card:nth-child(7) .exp-detail h3 a{
+        font-size: 18px;
+    }
+
+    .grid .hex {
+        padding: 30px 35px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .grid .hex img {
+        height: 25px;
+        width: 100%;
+    }
+
+    .grid .hex h5{
+        font-size: 20px;
+    }
+
+    .grid .hex p {
+        font-size: 12px;
+    }
+
+    .col2, .col4 {
+        margin-left: -40px;
+    }
+
+    .col3, .col5 {
+        margin-left: -40px;
+    }
+
+    .chart-wrap {
+        width: 380px;
+        height: 380px;
+        margin: 0;
+    }
+
+    .mid-circle {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .testimonial-slider {
+    padding-bottom: 260px;
+}
+
+    .testimonial-section .testimonial-slider-item .student-img{
+        width: 300px;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info .content{
+        padding: 50px 80px 50px 50px;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info {
+        width: calc(100% - 320px);
+    }
+
+    .intro-text {
+        font-size: 20px;
+    }
+
+    .box{
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .box .icon svg{
+        width: 50px;
+    }
+
+    .box h3{
+        font-size: 20px;
+    }
+
+    .student-internship-programs{
+        margin-top: 165px;
+    }
+
+    .contact-form{
+        padding:50px;
+    }
+
+    .contact-item .box-inner h4{
+        font-size: 18px;
+    }
+
+    .faq-wrap{
+        padding: 50px;
+    }
+
+    .value-added-feature-lists ul{
+        column-count: 1;
+    }
+
+    .infra__desc{
+        padding: 20px;
+    }
+
+    .infra__desc h1{
+        font-size: 32px;
+    }
+
+    .infra__desc h1 span{
+        font-size: 24px;
+    }
+
+    .club-activities{
+        margin-right: -45%;
+    }
+    
+    .eligibility-section .row{
+        flex-direction:column-reverse;
+    }
+    .eligibility-left{
+        padding:40px;
+    }
+    
+    .eligibility-right{
+        position:inherit;
+        transform:translateY(0);
+    }
+    
+    .p-carrer-content {
+    padding: 100px 40px 100px 10%;
+}
+
+.wpbc_booking_form_structure.wpbc_form_right .wpbc_structure_calendar{
+    flex:0 0 30% !important;
+}
+
+.wpbc_times_selector div{
+    margin:7px 5px 0 0 !important;
+}
+
+
+.wpbc_booking_form_structure.wpbc_form_right .wpbc_structure_form > *{
+    margin:15px 10px !important;
+}
+
+.booking_form .form-group .controls select, .booking_form select, .booking_form textarea, .booking_form input[type="text"]{
+    width:185px !important;
+}
+
+}
+
+@media (max-width: 767.98px) {
+
+    .block{
+        padding:80px 0;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .top-header{
+        font-size: 12px;
+    }
+
+    .top-header ul li{
+        margin-right: 12px;
+    }
+
+    .si-wrap li a svg{
+        font-size: 12px;
+    }
+
+    header .navbar-brand img{
+        width:150px;
+    }
+
+    .mega-menu-wrap{
+        width:520px;
+        height:90vh;
+        overflow-y:scroll;
+    }
+    
+    .inner-page-header h1{
+        font-size:28px;
+    }
+
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap h1{
+        font-size: 50px;
+    }
+
+    .exp-card:first-child,
+    .exp-card:nth-child(4),
+    .exp-card:nth-child(5),
+    .exp-card:nth-child(8){
+        width: 60%;
+    }
+
+    .exp-card:nth-child(2),
+    .exp-card:nth-child(3),
+    .exp-card:nth-child(6),
+    .exp-card:nth-child(7){
+        width: 40%;
+    }
+
+    .mid-hex{
+        margin:-18px 0;
+    }
+
+    .chart-wrap{
+        margin: 0 auto 30px auto;
+    }
+    
+    .testimonial-slider{
+        padding-bottom:0;
+    }
+
+    .testimonial-slider-item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-img{
+        width: 35%;
+        margin-left: inherit;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info{
+        top: -100px;
+        width: 100%;
+        float: none;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info h3{
+        font-size: 18px;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info .content{
+        position:inherit;
+        top:30px;
+        right:0;
+        padding:35px;
+        margin-top:30px;
+    }
+
+    .student-internship-programs {
+        margin-top: 65px;
+    }
+
+    .student-internship-programs-inner {
+        margin-top: -170px;
+    }
+
+    .contact-form{
+        padding: 25px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .faq-wrap{
+        padding: 40px;
+    }
+
+    .square-shape{
+        max-width: 200px;
+        max-height: 200px;
+    }
+    .left-sqr-shp{
+        margin-bottom: 60px;
+    }
+
+    .value-added-feature-lists {
+        padding: 20px 30px 20px 50px;
+    }
+
+    .value-added-feature{
+        margin-top: 50px;
+    }
+    
+    .page-template-students-club h2.wp-block-heading{
+        font-size:22px;
+    }
+
+    .club-item.first > .container-fluid > .row,
+    .club-item.second > .container-fluid > .row,
+    .club-item.third > .container-fluid > .row,
+    .club-item.fourth > .container-fluid > .row,
+    .club-item.fifth > .container-fluid > .row,
+    .club-item.sixth > .container-fluid > .row,
+    .club-item.seven > .container-fluid > .row{
+        flex-direction: column-reverse;
+    }
+    
+    
+
+    .club-item:nth-child(even) .club-activities,
+    .club-item:nth-child(odd) .club-activities{
+        padding:25px;
+    }
+	
+    
+    .club-item{
+        padding:0 !important;
+    }
+    
+    .club-item.seven{
+        padding-bottom:50px; 
+    }
+	
+	
+
+    .club-item .club-item-img img{
+        aspect-ratio: 4/3;
+        object-fit:contain;
+    }
+
+    .club-activities{
+        height: 100%;
+        margin-right: 0;
+    }
+
+    
+
+    .club-item:nth-child(even) .club-activities{
+        margin-left: 0;
+    }
+
+    .club-item-content{
+        padding:30px;
+    }
+    
+    .footer-item{
+        margin-bottom:40px;
+    }
+    
+    .footer-item h6{
+        margin-bottom:20px;
+    }
+    
+    .footer-item ul li{
+        margin-bottom:10px;
+    }
+    
+    .testi-content{
+        padding:0;
+    }
+    
+    .codinator-background{
+        gap:20px
+    }
+    
+    .codinator-background-item{
+    padding-right: 0;
+}
+	
+	.our-Partner-section .nav li{
+		margin:0 10px;
+	}
+	.our-Partner-section .nav li .nav-link{
+		font-size:12px;
+	}
+	
+	.page-template-career-center .our-Partner-section .nav li .nav-link{
+		font-size:14px;
+	}
+	
+	.team-card .card-body h4{
+	    font-size:16px;
+	}
+	
+	.time-slots-container {
+    grid-template-columns: repeat(4,1fr);
+    gap:5px;
+}
+
+.postid-381 .top-sec{
+    padding-top:100px;
+}
+
+.club-item{
+    margin-bottom:50px;
+}
+
+.left-sqr-shp img{
+    margin-top:0;
+}
+
+.col-reverse{
+    flex-direction:column-reverse;
+}
+
+.wpbc_booking_form_structure.wpbc_form_right .wpbc_structure_calendar{
+    flex:0 0 100% !important;
+    margin-bottom:30px !important;
+}
+
+#fbuilder label{
+    font-size:14px;
+}
+
+}
+
+@media (max-width: 575.98px) {
+
+    .block{
+        padding:60px 0;
+    }
+
+    .section-title{
+        font-size: 26px;
+    }
+
+    .section-head p{
+        font-size: 18px;
+    }
+
+    .inner-page-header h1 {
+        font-size: 26px;
+    }
+
+    .breadcrumb{
+        font-size:12px;
+    }
+    .banner-section .banner-slider .swiper-slide{
+        background-position:95%;
+    }
+
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap{
+        width:100%;
+        text-align:center;
+        justify-content:center;
+        /*padding-left: 10%;*/
+    }
+    .banner-section .banner-slider .swiper-slide .banner-content-wrap h1{
+        font-size: 40px;
+    }
+
+.mega-menu-wrap{
+        width:320px;
+    }
+
+    .col2, .col4 {
+        margin-left: -22px;
+    }
+
+    .col3, .col5 {
+        margin-left: -22px;
+    }
+
+    .mid-hex {
+        margin: -10px 0;
+    }
+
+    .col2 .hex:first-child, .col4 .hex:first-child {
+        margin-bottom: -10px;
+    }
+
+    .grid .hex {
+        padding: 25px 25px;
+        width: 115px;
+        height: 115px;
+    }
+
+    .grid .hex img {
+        height: 18px;
+    }
+
+    .grid .hex h5 {
+        font-size: 12px;
+    }
+
+    .grid .hex p {
+        font-size: 8px;
+    }
+
+    .testimonial-slider {
+        padding-bottom: 100px;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-img{
+        width: 50%;
+        margin: 0 auto 30px auto;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info{
+        top: 0;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .testimonial-section .testimonial-slider-item .student-info .content{
+        padding: 35px 20px 20px;
+    }
+    
+    .our-Partner-section .nav li{
+		margin:0 5px;
+	}
+	/*.our-Partner-section .nav li .nav-link{*/
+	/*	font-size:10px;*/
+	/*}*/
+
+    .faq-wrap{
+        padding: 20px;
+    }
+
+    .vision-img {
+        margin-right: 25px;
+    }
+
+    .left-sqr-shp{
+        margin-left: 25px;
+    }
+
+    .square-shape {
+        right: -15px;
+    bottom: -15px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .left-sqr-shp .square-shape{
+        left: -15px;
+    }
+
+    .infra__desc{
+        padding: 10px;
+    }
+
+    .infra__desc h1 span{
+        font-size: 12px;
+    }
+
+    .gallery-section .item-container__1 {
+        grid-template-areas: "item-1 item-1 "
+        "item-3 item-2";
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .gallery-section .item-container__2 {
+        grid-gap: calc(-0.55172px + 0.86207vw);
+        display: grid;
+        grid-template-areas:
+            "item-1 item-2 item-3"
+            "item-4 item-4 item-5";
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    
+    
+    .club-activities ul{
+        column-count:1;
+    }
+
+    .club-activities ul li{
+        font-size: 12px;
+    }
+    
+    .apply-form-wrap{
+        padding:30px 15px 0;
+    }
+    
+    .sr-fb-rm{
+        right:5px !important;
+    }
+    
+    .testi-content .quote-icon {
+     float: none; 
+    margin-bottom: 15px;
+}
+
+.prime-picture-wrap{
+    gap:5px;
+    grid-template-areas: "item-1 item-2 item-3"
+    "item-4 item-5 item-5"
+    "item-6 item-6 item-7"
+    "item-8 item-9 item-10"
+    "item-11 item-11 item-12";
+    grid-template-columns: repeat(3,1fr);
+}
+
+.required-doc{
+column-count:1;
+}
+
+.date-time{
+    padding:10px;
+}
+
+.time-slot label{
+    font-size:9px;
+    padding:5px;
+}
+
+.footer-btm{
+    padding-bottom:70px;
+}
+
+.p-carrer-content {
+    padding: 50px 15px 50px 15px;
+}
+
+.support-along .box{
+    margin-bottom:0;
+}
+
+.team-card .card-img img{
+    height:180px;
+}
+
+.team-card.tu-topper .card-img img{
+    width:100%;
+    height:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+}
+
+#field_1-1,
+#field_1-2,
+#field_1-3,
+#field_1-4,
+#field_1-5,
+#field_1-6,
+#field_1-7,
+#field_1-8{
+    width:100%;
+    float:none;
+}
+
+
+}
+
+
+
+@media (max-width: 419.98px){
+    
+    .banner-section .banner-slider .swiper-slide{
+        height:calc(70vh - 140px);
+        background-position:98%;
+    }
+    
+    .inner-page-banner{
+        margin-bottom:0;
+    }
+    
+    .inner-page-header{
+        padding:20px 10px;
+    }
+    
+    .inner-page-header h1{
+        font-size:22px;
+    }
+
+.chart-wrap {
+    width: 300px;
+    height: 300px;
+}
+
+.mid-circle {
+    font-size: 22px;
+    width: 140px;
+    height: 140px;
+}
+}

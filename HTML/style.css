@@ -1,0 +1,342 @@
+* {
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+    width: 100%;
+}
+
+
+.header-bar {
+    height: 150px;
+    width: 100%;
+}
+
+.header-bar .top-heading {
+    width: 100%;
+    height: 40%;
+    background-color: #07519f;
+}
+
+
+.header-bar .top-heading .social-link-heading{
+    height: 100%;
+    width: 30%;
+  
+    
+}
+
+.top-heading .social-link-heading .social-link-heading-icon a{
+  margin-left: 10px;
+}
+
+.header-bar .top-heading .contact-link-heading {
+
+    width: 60%;
+    height: 100%;
+    color: #fff;
+  
+    
+
+}
+
+.header-bar .top-heading .contact-link-heading ul {
+
+    list-style-type: none;
+    
+
+
+}
+
+.header-bar .top-heading .contact-link-heading ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.header-bar .top-heading .signup-user-heading {
+    width: 10%;
+    height: 100%;
+  
+}
+
+.navbar{
+    height:60% ;
+    width: 100%;
+  
+}
+
+.navbar .container-fluid .lict-logo img{
+ height: 60px;
+ width: 70px;
+
+}
+
+.nav-item  a{
+color:#000;
+font-weight: 500;
+transition: 0.1 ease all;
+}
+
+
+.nav-item  a:hover{
+    color: gold;
+}
+
+
+
+.dropdown-item a{
+    background-color:none;
+}
+.hero-section .slider-image-herosection .carousel-item img{
+    height: 650px;
+   
+
+}
+
+/* Our Program */
+.lict-program {
+height: 600px;
+width: 100%;
+}
+
+ .lict-program .lict-program-info{
+    height: 30%;
+    width: 100%;
+    
+}
+
+.lict-program .program-card{
+    height: 70%;
+    width: 100%;
+}
+ 
+
+
+.homepage-aboutus{
+    height: 490px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.homepage-aboutus .hompage-aboutus-left{
+    height: 100%;
+    width: 50%;
+    
+    color: #07519f;
+}
+
+.homepage-aboutus .homepage-aboutus-right{
+    height: 100%;
+    width: 50%;
+    
+}
+
+.lict-qualities{
+    height: 550px;
+    width: 100%;
+    background-color: aqua;
+    margin-top:20px;
+}
+
+.homepage-principle{
+    height: 500px;
+    width: 100%;
+
+}
+ .homepage-principle .homepage-principle-photo{
+    height: 100%;
+    width: 50%;
+ }
+
+ .homepage-principle .homepage-principle-message{
+    height: 100%;
+    width: 50%;
+ }
+
+
+ .lict_gallery {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.gallery-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image img:hover {
+    transform: scale(1.05);
+}
+
+#loadMore {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#loadMore:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/* testimonial  */
+ .testimonial-container{
+    height: 600px;
+    width: 100%;
+ }
+
+ .testimonial-container .testimonial-heading{
+    height: 25%;
+    width: 100%;
+
+ }
+
+ .testimonial-container .testimonial-student-review{
+    height: 75%;
+    width: 100%;
+ }
+
+.testimonial-slider {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.testimonial-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paragraph p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #555;
+}
+
+.testimonial-slider:hover .testimonial-item {
+    transform: translateX(-100%);
+}
+
+/*  Homepage highlight News & Events */
+
+.Homepage-Highlight-News-Events {
+height: 550px;
+width: 100%;
+margin-top: 70px;
+padding: 20px;
+
+}
+
+.Homepage-Highlight-News-Events .homepage-highlight-News-Events-Heading{
+    height: 30%;
+    width: 100%;
+   
+
+}
+ .Homepage-Highlight-News-Events .homepage-highlight-News-Event-Slider-auto{
+height: 70%;
+width: 100%;
+background-color: bisque;
+}
+.homepage-highlight-News-Event-Slider-auto .highlight-news-event-photo{
+    height: 70%;
+    width: 10%;
+}
+.carousel-inner {
+    overflow: hidden; /* Hide overflowed images */
+  }
+  
+  .carousel-item {
+    display: flex;
+    width: 100%;
+  }
+  
+  .carousel-item-container {
+    flex: 1 0 25%; /* Each item takes 25% of the width (4 items per slide) */
+    padding: 0 10px; /* Adjust spacing between images */
+    height: 450px; /* Set height for container */
+    display: flex; /* Flexbox to center content */
+    align-items: center; /* Center images vertically */
+    justify-content: center; /* Center images horizontally */
+  }
+  
+  .carousel-item-container img {
+    height: 400px; /* Set fixed height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container without stretching */
+
+  }
+  
+  @media (max-width: 992px) {
+    .carousel-item-container {
+      flex: 1 0 50%; /* On medium screens, show 2 items at a time */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-item-container {
+      flex: 1 0 100%; /* On small screens, show 1 item at a time */
+    }
+  }
+  
+
+  .homepage-footer{
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+  }

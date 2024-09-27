@@ -1,0 +1,162 @@
+$(document).ready(function () {
+  "use strict";
+  
+  
+ 
+  
+  
+//   Sticky Header
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 10) {
+        $('header').addClass('fixed-header');
+    }
+    else {
+        $('header').removeClass('fixed-header');
+    }
+});
+  
+    // Mega menu
+  $('.search-trigger').click(function(){
+    $('.search-box-wrap').toggleClass('show');
+  });
+
+  // Mega menu
+//   $('.bar').click(function(){
+//     $('.mega-menu-wrap').toggleClass('show-mega');
+//   });
+  
+  
+  $(function(){
+  $('.bar').hover(function() {
+    $('.mega-menu-wrap').addClass('show-mega');
+  }, function() {
+    $('.mega-menu-wrap').removeClass('show-mega');
+  })
+})
+  
+
+// $('.mega-close').click(function() {
+//   $('.mega-menu-wrap').removeClass('show-mega');
+// });
+  // Banner Slider
+
+  var swiper = new Swiper(".banner-slider", {
+    // Optional parameters
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    speed: 1000,
+    grabCursor: true,
+    effect: "creative",
+    creativeEffect: {
+      prev: {
+        shadow: true,
+        translate: ["-20%", 0, -1],
+      },
+      next: {
+        translate: ["100%", 0, 0],
+      },
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  
+
+  // Testimonial Slider
+
+ var swiper = new Swiper(".testimonial-slider", {
+  slidesPerView: 1,
+  loop: true,
+  autoHeight: true,
+  autoplay: {
+    delay: 6000,
+    disableOnInteraction: false,
+  },
+  speed: 3000,  // Increase this value to slow down the slider (e.g., 2000 milliseconds)
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
+  // News And Event Slider
+  var swiper = new Swiper(".news-event-slider", {
+      loop:true,
+    slidesPerView: 1,
+    speed:1000,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: true,
+    },
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+        spaceBetween: 20,
+    centeredSlides: true,
+    centeredSlidesBounds: true,
+    freeMode: true,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    },
+  });
+  
+//   Partner Slider
+var swiperpartner = new Swiper(".partner-slider", {
+    loop:true,
+      slidesPerView: 2,
+      spaceBetween: 10,
+	speed:1800,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+
+  // Equal Height
+
+  $(".equal-height").matchHeight();
+
+  // Chart Js
+  $(".pie").hover(function () {
+    var id = $(this).attr("id");
+    $(".card-content").hide();
+    $("#content-" + id).show();
+  });
+});
+;
